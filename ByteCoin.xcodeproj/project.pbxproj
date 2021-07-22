@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4228E5FA26A79E4800A301CB /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228E5F926A79E4800A301CB /* APIKeys.swift */; };
+		4228E5FC26A9BAC000A301CB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228E5FB26A9BAC000A301CB /* Coin.swift */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4228E5F926A79E4800A301CB /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		4228E5FB26A9BAC000A301CB /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				4228E5FB26A9BAC000A301CB /* Coin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4228E5FC26A9BAC000A301CB /* Coin.swift in Sources */,
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				4228E5FA26A79E4800A301CB /* APIKeys.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
